@@ -75,8 +75,8 @@ namespace VCalendar
                 result.AppendFormat("X-WR-CALNAME:{0}{1}", m_Name, System.Environment.NewLine);
             }
 
-            result.Append(TimeZones.ToString());
-            result.Append(Events.ToString());
+            result.Append(this.TimeZones);
+            result.Append(this.Events);
 
             result.AppendLine("END:VCALENDAR");
             return result.ToString();

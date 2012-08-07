@@ -69,7 +69,7 @@ namespace VCalendar
             result.AppendFormat("DTSTART:{0}{1}", m_StartDate.UniversalTimeString(), Environment.NewLine);
             if (m_Rule != null)
             {
-                result.Append(m_Rule.ToString());
+                result.Append(this.m_Rule);
             }
             result.AppendFormat("END:{0}{1}", SectionName, Environment.NewLine);
             return result.ToString();
