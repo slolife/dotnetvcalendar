@@ -1,0 +1,4 @@
+syntax: glob
+*.suo
+_ReSharper.dotnetvcalendar
+obj
