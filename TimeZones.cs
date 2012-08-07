@@ -16,7 +16,7 @@ namespace VCalendar
             StringBuilder result = new StringBuilder();
             foreach (CalendarTimeZone item in this)
             {
-                result.Append(item.ToString());
+                result.Append(item);
             }
 
             return result.ToString();

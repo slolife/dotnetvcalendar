@@ -16,7 +16,7 @@ namespace VCalendar
             var result = new StringBuilder();
             foreach (Alarm item in this)
             {
-                result.Append(item.ToString());
+                result.Append(item);
             }
 
             return result.ToString();

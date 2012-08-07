@@ -123,8 +123,6 @@ namespace VCalendar
                     break;
                 case Frequency.Yearly:
                     break;
-                default:
-                    break;
             }
 
             result.AppendFormat("WKST={0}", WeekStart.ToString().Substring(0, 2).ToUpper());

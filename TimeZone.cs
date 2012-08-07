@@ -31,8 +31,8 @@ namespace VCalendar
             StringBuilder result = new StringBuilder();
             result.AppendLine("BEGIN:VTIMEZONE");
             result.AppendFormat("TZID:{0}{1}", TimeZoneId, System.Environment.NewLine);
-            result.Append(StandardSection.ToString());
-            result.Append(DaylightSection.ToString());
+            result.Append(this.StandardSection);
+            result.Append(this.DaylightSection);
             result.AppendLine("END:VTIMEZONE");
             return result.ToString();
         }

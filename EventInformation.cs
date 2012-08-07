@@ -119,7 +119,7 @@ namespace VCalendar
 
             if (Recurrence != null)
             {
-                result.Append(Recurrence.ToString());
+                result.Append(this.Recurrence);
             }
 
             result.AppendFormat("DTSTAMP:{0}{1}", DateTime.UtcNow.UniversalTimeString(), Environment.NewLine);
@@ -136,7 +136,7 @@ namespace VCalendar
                 result.AppendFormat("URL:{0}{1}", Url, Environment.NewLine);
             }
 
-            result.Append(Alarms.ToString());
+            result.Append(this.Alarms);
 
             result.AppendFormat("CLASS:{0}{1}", IsPrivate ? "PRIVATE" : "PUBLIC", Environment.NewLine);
 
