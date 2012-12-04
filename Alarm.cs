@@ -51,11 +51,11 @@ namespace VCalendar
         public override string ToString()
         {
             var result = new StringBuilder();
-            result.AppendFormat("BEGIN:VALARM{0}", Environment.NewLine);
-            result.AppendFormat("TRIGGER:P{0}DT{1}H{2}M{3}", Trigger.Days, Trigger.Hours, Trigger.Minutes, Environment.NewLine);
-            result.AppendFormat("ACTION:{0}{1}", Action, Environment.NewLine);
-            result.AppendFormat("DESCRIPTION:{0}{1}", Description, Environment.NewLine);
-            result.AppendFormat("END:VALARM{0}", Environment.NewLine);
+            result.AppendLine("BEGIN:VALARM");
+            result.AppendFormat("TRIGGER:P{0}DT{1}H{2}M", Trigger.Days, Trigger.Hours, Trigger.Minutes).AppendLine();
+            result.AppendFormat("ACTION:{0}", Action).AppendLine();
+            result.AppendFormat("DESCRIPTION:{0}", Description).AppendLine();
+            result.AppendFormat("END:VALARM").AppendLine();
             return result.ToString();
         }
     }
