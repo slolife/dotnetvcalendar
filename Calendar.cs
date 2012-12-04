@@ -72,6 +72,7 @@ namespace VCalendar
             result.AppendLine("METHOD:PUBLISH");
             if (!string.IsNullOrEmpty(m_Name))
             {
+                result.AppendFormat("NAME:{0}{1}", m_Name, System.Environment.NewLine);
                 result.AppendFormat("X-WR-CALNAME:{0}{1}", m_Name, System.Environment.NewLine);
             }
 
