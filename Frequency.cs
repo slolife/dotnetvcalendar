@@ -15,6 +15,9 @@ namespace VCalendar
         /// <summary>Occurs monthly</summary>
         Monthly,
 
+        /// <summary>Occurs quarterly</summary>
+        Quarterly,
+
         /// <summary>Occurs yearly</summary>
         Yearly
     }
