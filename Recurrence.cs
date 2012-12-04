@@ -121,6 +121,8 @@ namespace VCalendar
                     break;
                 case Frequency.Monthly:
                     break;
+                case Frequency.Quarterly:
+                    break;
                 case Frequency.Yearly:
                     break;
             }
