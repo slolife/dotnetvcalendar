@@ -5,4 +5,4 @@ Automatically exported from code.google.com/p/dotnetvcalendar
 
 Initial aim is to make it workable with Outlook
 
-[License](https://github.com/slolife/dotnetvcalendar/blob/master/README.md)
+[License](https://github.com/slolife/dotnetvcalendar/blob/master/LICENSE)
