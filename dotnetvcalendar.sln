@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetvcalendar", "dotnetvcalendar.csproj", "{D52F421A-D36B-47D5-9698-B9EC4D39BACA}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetvcalendar", "src\dotnetvcalendar\dotnetvcalendar.csproj", "{89B2E7B0-0C58-4024-9A56-9ABD246CFCB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "tests\tests.csproj", "{5FA74D96-C895-4792-A605-EFECA3F82559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D52F421A-D36B-47D5-9698-B9EC4D39BACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D52F421A-D36B-47D5-9698-B9EC4D39BACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D52F421A-D36B-47D5-9698-B9EC4D39BACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D52F421A-D36B-47D5-9698-B9EC4D39BACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B2E7B0-0C58-4024-9A56-9ABD246CFCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B2E7B0-0C58-4024-9A56-9ABD246CFCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B2E7B0-0C58-4024-9A56-9ABD246CFCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B2E7B0-0C58-4024-9A56-9ABD246CFCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA74D96-C895-4792-A605-EFECA3F82559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA74D96-C895-4792-A605-EFECA3F82559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA74D96-C895-4792-A605-EFECA3F82559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA74D96-C895-4792-A605-EFECA3F82559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A43EA3-AB90-4A59-93FD-09BD726675C9}
 	EndGlobalSection
 EndGlobal

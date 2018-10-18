@@ -8,4 +8,6 @@ Automatically exported from code.google.com/p/dotnetvcalendar
 
 Initial aim is to make it workable with Outlook
 
+[Specs](https://www.ietf.org/rfc/rfc2445.txt)
+
 [License](https://github.com/slolife/dotnetvcalendar/blob/master/LICENSE)
