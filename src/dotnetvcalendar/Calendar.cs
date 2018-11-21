@@ -61,7 +61,7 @@ namespace VCalendar
             }
             else
             {
-                throw new InvalidOperationException("Calendar.Name should not be set for single event/meeting calendars.")
+                throw new InvalidOperationException("Calendar.Name should not be set for single event/meeting calendars.");
             }
 
             result.Append(this.TimeZones);
