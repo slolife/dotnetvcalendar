@@ -11,3 +11,7 @@ Initial aim is to make it workable with Outlook
 [Specs](https://www.ietf.org/rfc/rfc2445.txt)
 
 [License](https://github.com/slolife/dotnetvcalendar/blob/master/LICENSE)
+
+CodeSense
+
+[![](https://codescene.io/projects/5149/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/5149/jobs/latest-successful/results)
